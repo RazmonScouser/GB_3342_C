@@ -3,7 +3,7 @@ Console.WriteLine("Enter two numbers:");
 int number1 = Convert.ToInt32(Console.ReadLine());
 int number2 = Convert.ToInt32(Console.ReadLine());
 int min = number1;
-int max = number2; 
+int max = number1; 
 if (number1 < number2) {
 min = number1;
 }
