@@ -4,16 +4,20 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 int number2 = Convert.ToInt32(Console.ReadLine());
 int min = number1;
 int max = number1; 
-if (number1 < number2) {
+if (number1 < number2) 
+{
 min = number1;
 }
-else{
+else
+{
 min = number2;
 }
-if (number1 > number2) {
+if (number1 > number2) 
+{
 max = number1;
 }
-else{
+else
+{
 max = number2;
 }
 Console.WriteLine($"The minimum is {min}");
