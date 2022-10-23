@@ -5,6 +5,8 @@ int evenfactor = number % 2;
 if (evenfactor == 0)  
 {
     Console.WriteLine("Yes");
-} else {
+} 
+else 
+{
     Console.WriteLine("No");
 };
